@@ -58,7 +58,7 @@ const InputList = () => {
       <div className="container">
         {inputList.map((obj, i) => {
           return (
-            <div className="inputList">
+            <div key={i} className="inputList">
               <input
                 className="input"
                 type="text"
