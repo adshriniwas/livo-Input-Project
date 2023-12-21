@@ -51,7 +51,6 @@ const InputList = () => {
         return list;
       });
     });
-    console.log(inputList);
   };
 
   return (
